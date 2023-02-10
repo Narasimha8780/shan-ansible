@@ -8,7 +8,7 @@
       apt: update_cache=yes   
    
     - name: Install Nginx
-      apt: name=nginx state=latest
+      apt: name=nginx state=present
 
     - name: Start Apache server
       service:
